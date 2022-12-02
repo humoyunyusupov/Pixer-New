@@ -184,6 +184,7 @@
     .hero-video{
         width: 592px;
         height: 334px;
+        object-fit: contain;
     }
 
     .services {
@@ -472,6 +473,15 @@
     .social-link:hover .social-img{
         color: #1AAB7B;
     }
+    .services-footer-link:hover{
+        color: #1AAB7B;
+    }
+    .resources-link:hover{
+        color: #1AAB7B;
+    }
+    .connect-link:hover{
+        color: #1AAB7B;
+    }
 
     .footer-bottom {
         display: flex;
@@ -530,6 +540,7 @@
             margin: 0;
             margin-top: 20px;
         }
+        
         
         
         
@@ -627,6 +638,20 @@
         .work{
             padding-bottom: 20px;
         }
+
+        .services-item-title{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .services-item-text{
+            text-align: center;
+        }
+        .services-item-link{
+            display: block;
+            text-align: center;
+        }
+        
     }
 
 
